@@ -20,7 +20,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/tasks", taskRoutes);
 
 // connect to MongoDB
-const MONGO_URI = "mongodb://127.0.0.1:27017/scholarbridge";
+const MONGO_URI = "mongodb+srv://sankarathi49_db_user:dX31s2dbXitgEAof@cluster0.fxk5mc4.mongodb.net/";
 mongoose
   .connect(MONGO_URI)
   .then(() => console.log("MongoDB Connected"))
